@@ -81,3 +81,15 @@ nav a:hover {
     margin-top: 20px;
 }
 /* MAIN PRODUTOS End */
+
+/* FOOTER Begin */
+footer {
+    background: url(../img/bg.jpg);
+    text-align: center;
+    padding: 40px;
+}
+
+footer p {
+    color: #FFFFFF;
+}
+/* FOOTER End */
