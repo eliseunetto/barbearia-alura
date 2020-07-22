@@ -1,12 +1,17 @@
 body {
-    background: #CCCCCC;
+    
 }
 
 #banner {
     width: 100%;
 }
 
-h1, p {
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+h1, h2, p {
     text-align: center;
 }
 
@@ -14,6 +19,21 @@ h1, p {
     font-size: 20px;
 }
 
+.lista-beneficios {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
 .itens {
     font-style: italic;
+}
+
+.beneficios {
+    padding: 20px;
+}
+
+.imagem-beneficios {
+    width: 50%;
 }
