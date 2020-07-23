@@ -95,3 +95,33 @@ footer {
     margin-top: 20px;
 }
 /* FOOTER End */
+
+/* CONTATO Begin */
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+.formulario-principal {
+    margin: 0 2%;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+form input, #conteudo-mensagem {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 60%;
+}
+
+/* CONTATO End */
