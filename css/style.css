@@ -124,4 +124,8 @@ form label, form p {
     width: 60%;
 }
 
+.checkbox {
+    margin: 20px 0;
+}
+
 /* CONTATO End */
