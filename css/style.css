@@ -107,8 +107,8 @@ form {
     margin: 40px 0;
 }
 
-.formulario-principal {
-    margin: 0 2%;
+.formulario-principal, .contato, .atendimento-horario {
+    margin: 0 2% 20px;
 }
 
 form label, form p {
