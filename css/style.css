@@ -198,6 +198,15 @@ form label, form legend {
     font-style: italic;
 }
 
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 20px 0;
+    text-align: center;
+}
+
 .imagem-beneficios {
     width: 60%;
 }
