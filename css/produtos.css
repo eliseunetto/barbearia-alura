@@ -89,7 +89,9 @@ footer {
     padding: 40px;
 }
 
-footer p {
+.copyright {
     color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
 }
 /* FOOTER End */
