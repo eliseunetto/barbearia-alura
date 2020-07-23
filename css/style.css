@@ -173,6 +173,13 @@ form label, form legend {
     text-align: center;
     font-size: 2em;
     margin-bottom: 1em;
+    clear: left;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
 }
 
 .principal p {
