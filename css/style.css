@@ -106,7 +106,7 @@ form {
     margin: 40px 0;
 }
 
-.formulario-principal, .contato, .atendimento-horario, .checkbox-novidades, .enviar {
+.formulario-principal, .contato, .atendimento-horario, .checkbox-novidades, .enviar, .tabela-funcionamento {
     margin: 0 2% 20px;
 }
 
@@ -146,4 +146,20 @@ form label, form legend {
     color: green;
 }
 
+.tabela-funcionamento {
+    width: 25%;
+    margin-bottom: 40px;
+}
+
+.tabela-funcionamento thead {
+    font-weight: bold;
+    background: #555555;
+    color: #FFFFFF;
+}
+
+.tabela-funcionamento td, th {
+    border: 1px solid #000000;
+    padding: 8px 0;
+    text-align: center;
+}
 /* CONTATO End */
