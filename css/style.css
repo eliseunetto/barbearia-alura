@@ -204,6 +204,10 @@ form label, form legend {
     margin: 0 auto;
 }
 
+.principal:hover h2 {
+    color: #91650e;
+}
+
 .principal p {
     margin-bottom: 1em;
 }   
@@ -221,6 +225,10 @@ form label, form legend {
     background: linear-gradient(#FEFEFE, #888888)
 }
 
+.mapa:hover h3 {
+    color: #91650e;
+}
+
 .mapa p {
     margin: 20px 0;
     text-align: center;
@@ -234,6 +242,10 @@ form label, form legend {
 .beneficios {
     padding: 3em 0;
     background: #888888;
+}
+
+.beneficios:hover h3 {
+    color: #91650e;
 }
 
 .conteudo-beneficios {
