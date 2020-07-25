@@ -315,8 +315,22 @@ form label, form legend {
         position: static;
     }
 
-    .lista-beneficios, .imagem-beneficios {
-        width: 100%;
+    .lista-beneficios, .imagem-beneficios, select, .enviar, .tabela-funcionamento {
+        width: 95%;
+    }
+
+    .produtos {
+        width: 99%;
+        
+    }
+
+    .produtos li {
+        width: 90%;
+        margin: 1em 0;
+    }
+    
+    .input-padrao {
+        width: 85%;
     }
 }
 /* CONFIG. PARA MOBILE End */
