@@ -39,133 +39,11 @@ nav a:hover {
 
 /* HEADER End */
 
+
 main {
     
 }
 
-/* MAIN PRODUTOS Begin */
-.produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.produtos li {
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    width: 30%;
-    padding: 30px 20px;
-    margin: 0 1.5%;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 10px;
-}
-
-.produtos li:hover {
-    border-color: #91650e;
-}
-
-.produtos li:hover h2 {
-    font-size: 35px;
-}
-
-.produtos li:active {
-    border-color: #088C19;
-}
-
-.produtos h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.produto-descricao {
-    font-size: 18px;
-}
-
-.produto-preco {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 20px;
-}
-/* MAIN PRODUTOS End */
-
-/* FOOTER Begin */
-footer {
-    background: url(../img/bg.jpg);
-    text-align: center;
-    padding: 40px;
-}
-
-.copyright {
-    color: #FFFFFF;
-    font-size: 13px;
-    margin-top: 20px;
-}
-/* FOOTER End */
-
-/* CONTATO Begin */
-form {
-    margin: 40px 0;
-}
-
-.formulario-principal, .contato, .atendimento-horario, .checkbox-novidades, .enviar, .tabela-funcionamento {
-    margin: 0 2% 20px;
-}
-
-form label, form legend {
-    display: block;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.input-padrao, #text-area {
-    display: block;
-    margin-bottom: 20px;
-    padding: 10px 25px;
-    width: 60%;
-}
-
-.checkbox {
-    margin: 20px 0;
-}
-
-.enviar {
-    width: 50%;
-    padding: 15px;
-    color: #FFFFFF;
-    font-size: 18px;
-    font-weight: bold;
-    background: orange;
-    border: none;
-    border-radius: 5px;
-    transition: 1s all;
-    cursor: pointer;
-}
-
-.enviar:hover {
-    background: darkorange;
-    transform: scale(1.2);
-    color: green;
-}
-
-.tabela-funcionamento {
-    width: 25%;
-    margin-bottom: 40px;
-}
-
-.tabela-funcionamento thead {
-    font-weight: bold;
-    background: #555555;
-    color: #FFFFFF;
-}
-
-.tabela-funcionamento td, th {
-    border: 1px solid #000000;
-    padding: 8px 0;
-    text-align: center;
-}
-/* CONTATO End */
 
 /* HOME Begin */
 .banner {
@@ -286,3 +164,159 @@ form label, form legend {
     margin: 2em auto;
 }
 /* HOME End */
+
+
+/* FOOTER Begin */
+footer {
+    background: url(../img/bg.jpg);
+    text-align: center;
+    padding: 40px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+/* FOOTER End */
+
+
+/* MAIN PRODUTOS Begin */
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.produtos li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #91650e;
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.produtos li:active {
+    border-color: #088C19;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/* MAIN PRODUTOS End */
+
+
+/* CONTATO Begin */
+form {
+    margin: 40px 0;
+}
+
+.formulario-principal, .contato, .atendimento-horario, .checkbox-novidades, .enviar, .tabela-funcionamento {
+    margin: 0 2% 20px;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-padrao, #text-area {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 60%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 50%;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+    color: green;
+}
+
+.tabela-funcionamento {
+    width: 25%;
+    margin-bottom: 40px;
+}
+
+.tabela-funcionamento thead {
+    font-weight: bold;
+    background: #555555;
+    color: #FFFFFF;
+}
+
+.tabela-funcionamento td, th {
+    border: 1px solid #000000;
+    padding: 8px 0;
+    text-align: center;
+}
+/* CONTATO End */
+
+
+/* CONFIG. PARA MOBILE Begin */
+@media screen and (max-width: 480px){
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    .principal img, p, .lista-beneficios li {
+        padding: 0 1em;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    header{
+        padding: 0 0 1em 0;
+    }
+
+    .navegacao { 
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+}
+/* CONFIG. PARA MOBILE End */
