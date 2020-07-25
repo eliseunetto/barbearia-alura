@@ -262,6 +262,7 @@ form label, form legend {
 .imagem-beneficios {
     width: 60%;
     transition: 400ms;
+    box-shadow: 10px 10px 10px #000000;
 }
 
 .imagem-beneficios:hover {
