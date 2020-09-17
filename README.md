@@ -1,2 +1,6 @@
-# html5-css3
- Criando um site chamado Barbearia Alura com HTML5 e CSS3
+# HTML5 e CCS3
+Este projeto teve como objetivo a criação de uma página web de um estabelecimento comercial.
+
+## Tecnologias utilizadas:
+* HTMH5
+* CSS3
